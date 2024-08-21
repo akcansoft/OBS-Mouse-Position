@@ -5,6 +5,7 @@
 
 ; Mesut Akcan
 ; https://youtube.com/mesutakcan
+; 21/08/2024
 #Requires AutoHotkey v2.0
 #SingleInstance Force
 SendMode("Event")
@@ -35,6 +36,7 @@ tooltipDuration := 3000 ; Duration in milliseconds for how long the tooltip shou
 }
 
 ; Hotkey to start/stop recording when Ctrl + Numpad0 is pressed
+; You can set this shortcut key in the OBS program.
 ~^Numpad0:: {
   global t, paused, recording
   static x, y
